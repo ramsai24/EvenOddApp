@@ -31,11 +31,11 @@ class EvenOddApp extends Component {
           <h1 className="count">
             Count <span>{number}</span>
           </h1>
-          <h1 className="evenorodd">Count is {evenOdd}</h1>
+          <p className="evenorodd">Count is {evenOdd}</p>
           <button onClick={this.oddOrEven} className="button" type="button">
             Increment
           </button>
-          <p className="note">*Increased by random number 0 to 100</p>
+          <p className="note">*Increased by Random Number Between 0 to 100</p>
         </div>
       </div>
     )
